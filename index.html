@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kaiyuan Wu is a Duke PhD student and clinical AI safety and governance scientist working on reliable, auditable, and deployable AI systems for high-risk healthcare environments.">
+  <title>Kaiyuan Wu | Clinical AI Safety and Governance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead" id="top">
+    <div class="wrap intro">
+      <div class="intro-text">
+        <p class="kicker">Duke University School of Medicine · Computational Biology &amp; Bioinformatics</p>
+        <h1>Kaiyuan Wu</h1>
+        <p class="role">Clinical AI Safety &amp; Governance Scientist</p>
+        <p class="lead">I work on the safety, validation, monitoring, and governance infrastructure that helps high-risk clinical AI move from research prototypes into reliable, auditable healthcare workflows.</p>
+        <p class="contact-line">
+          <span>vincent.wu [AT] duke.edu</span>
+          <span>Durham, NC</span>
+          <!-- <a href="CV.pdf">CV</a> -->
+        </p>
+      </div>
+      <img src="images/profile.jpg" alt="Portrait of Kaiyuan Wu" class="portrait">
+    </div>
+  </header>
+
+  <nav class="nav wrap" aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#mission">Mission</a>
+    <a href="#research">Research</a>
+    <!-- <a href="#projects">Projects</a> -->
+    <a href="#publications">Publications</a>
+    <a href="#translation">Translation</a>
+    <!-- <a href="#experience">Experience</a> -->
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main class="wrap">
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a 2nd-year PhD student in Computational Biology and Bioinformatics (CBB) at Duke University School of Medicine and a concurrent MA student in Applied Ethics and Policy with a Tech Ethics & Policy concentration. My work is positioned at the intersection of clinical AI & (multi-)agentic framework, AI safety, monitoring, and governance.</p>
+      <!-- <p>My profile is not simply about building predictive models. I focus on the layer that determines whether high-risk clinical AI can be responsibly used in care settings: validation, monitoring, auditability, interoperability, human oversight, and governance-aware deployment.</p> -->
+      <!-- <p>My research path follows a deliberate progression: biomedical foundation, computational modeling, clinical AI systems, and now high-risk AI safety and governance. This trajectory connects my earlier work in biology, statistics, medical imaging, and clinical prediction to my current focus on agentic decision support, FHIR-based planning, multimodal risk modeling, and runtime safety evaluation.</p> -->
+      <p>The central question guiding my work is how clinical AI systems can become reliable enough to support care delivery, auditable enough to be governed, and interoperable enough to be translated across real healthcare environments.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <article class="entry">
+        <h3>Duke University, School of Medicine</h3>
+        <p class="meta">Durham, NC · Aug 2024 – Dec 2028</p>
+        <p>PhD, Computational Biology and Bioinformatics. Concurrent MS, Applied Science and Policy, Tech Ethics concentration. Cumulative GPA: 3.955.</p>
+        <p>Selected graduate coursework: Deep Learning; Computational Sequence Biology; Intelligent Agents; Clinical Bioethics and Policy; Communicating Science Policy; Digital Intelligence; Advanced Web Application Development.</p>
+      </article>
+      <article class="entry">
+        <h3>Rice University</h3>
+        <p class="meta">Houston, TX · Aug 2020 – May 2024</p>
+        <p>BS, Bioengineering. BA, Statistics.</p>
+      </article>
+    </section>
+
+    <section id="mission">
+      <h2>Research Mission</h2>
+      <p>My proposed research endeavor is to develop, validate, and translate safety and governance frameworks for high-risk clinical artificial intelligence systems in U.S. healthcare. The work focuses on agentic clinical decision support, FHIR-based care planning, multimodal clinical prediction, continuous monitoring, and risk-control mechanisms for real-world deployment.</p>
+      <p>The practical need is clear: as clinical AI increasingly moves into discharge planning, critical care support, imaging, disease trajectory prediction, and hospital workflow optimization, model performance alone is not enough. AI systems must be clinically aligned, monitored after deployment, resilient to failure modes, and governed in ways that protect patients while supporting clinicians.</p>
+      <p>The broader value of this mission is system-level. Safe clinical AI governance is not limited to one model, one hospital, or one employer. Methods for validation, monitoring, bias detection, risk control, and workflow integration can support and scale across hospitals, research institutions, public health settings, and healthcare technology platforms that need trustworthy AI infrastructure.</p>
+      <p>In this sense, my work supports the safe translation of clinical AI from research prototypes into governable, monitorable, and clinically reliable healthcare infrastructure.</p>
+    </section>
+
+    <section id="research">
+      <h2>Research Focus</h2>
+      <p>These research areas are organized around a single objective: building the technical and governance layer between AI innovation and responsible clinical deployment.</p>
+      <dl class="focus-list">
+        <dt>Clinical AI safety and governance</dt>
+        <dd>Evaluation, monitoring, and governance frameworks for high-risk AI systems in clinical settings, including asymmetric risk evaluation, runtime safety surveillance, audit design, and post-deployment oversight.</dd>
+
+        <dt>Agentic clinical decision support</dt>
+        <dd>Multi-agent systems for discharge planning and critical care decision support, with emphasis on guideline recall, self-improvement, counterfactual simulation, clinician-in-the-loop design, and failure-aware planning.</dd>
+
+        <dt>FHIR-based planning and interoperability</dt>
+        <dd>LLM planning methods grounded in structured healthcare data standards so recommendations can be clinically traceable, interoperable with EHR environments, and easier to review or audit.</dd>
+
+        <dt>Multimodal clinical prediction</dt>
+        <dd>Models that integrate EHR, imaging, text, waveforms, and multi-site clinical datasets for trajectory prediction, risk identification, and care-planning support.</dd>
+      </dl>
+    </section>
+
+    <!-- <section id="projects">
+      <h2>Current Projects and Manuscripts</h2>
+      <ul>
+        <li><strong>Planner-Auditor Twin</strong> — Agentic discharge planning with FHIR-based LLM planning, guideline recall, optional caching, and self-improvement.</li>
+        <li><strong>OCA-Sentinel</strong> — Asymmetric risk evaluation and optimization framework for high-stakes agentic systems. <em>In preparation.</em></li>
+        <li><strong>ClinHarm</strong> — Clinical harm benchmark and safety evaluation dataset for healthcare AI. <em>In preparation.</em></li>
+        <li><strong>ClinGuard</strong> — Governance-aware safety monitoring system for deployed clinical AI agents. <em>In preparation.</em></li>
+        <li><strong>VA-ECMO</strong> — Multi-site agentic framework for critical care decision support spanning Duke, Colorado, Emory, Grady, eICU, and MIMIC. <em>In preparation.</em></li>
+        <li><strong>Women’s Health Equity Monitoring</strong> — MS capstone project on pre-deployment evaluation and ongoing runtime fairness monitoring for prenatal care AI. <em>Planned.</em></li>
+      </ul>
+    </section> -->
+
+    <section id="publications">
+      <h2>Publications and Preprints</h2>
+      <ol class="publications">
+        <li><strong>Planner-Auditor Twin: Agentic Discharge Planning with FHIR-Based LLM Planning, Guideline Recall, Optional Caching and Self-Improvement.</strong><br>Wu K, Nagori A, Kamaleswaran R. <em>arXiv preprint arXiv:2601.21113</em>, 2026. <span class="note">Preprint</span></li>
+        <li><strong>CXR-TFT: Multi-modal Temporal Fusion Transformer for Predicting Chest X-Ray Trajectories.</strong><br>Arora M, Ali A, Wu K, Davis C, Shimazui T, Alwakeel M, Moas V, Yang P, et al. <em>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>, 2025.</li>
+        <li><strong>The detection, function, and therapeutic potential of RNA 2’-O-methylation.</strong><br>Wu K, Li Y, Yi Y, Yu Y, Wang Y, Zhang L, Cao Q, Chen K. <em>The Innovation Life</em>, 3(1), 100112, 2024.</li>
+        <li><strong>The therapeutic potential of targeting the CHD protein family in cancer.</strong><br>Zhang M, Wu K, Zhang W, Lin X, Cao Q, Zhang L, Chen K. <em>Pharmacology &amp; Therapeutics</em>, 256, 108610, 2024.</li>
+        <li><strong>Exploring hippocampus segmentation on unbalanced data set using U-Net-based models.</strong><br>Wu K. <em>Applied and Computational Engineering</em>, 6, 758–763, 2023.</li>
+        <li><strong>The effect of selective c-MET inhibitor on hepatocellular carcinoma in the MET-active, β-catenin-mutated mouse model.</strong><br>Zhan N, Michael AA, Wu K, Zeng G, Bell A, Tao J, Monga SP. <em>Gene Expression</em>, 18(2), 135, 2018.</li>
+      </ol>
+    </section>
+
+    <section id="translation">
+      <h2>Translation, Intellectual Property, and Governance</h2>
+      <h3>Intellectual property</h3>
+      <ul>
+        <li><strong>U.S. Provisional Patent Filed:</strong> OCA-Sentinel Framework for Trustworthy Multi-Agentic AI. U.S. Provisional Application No. 64/030,784, Systems and Methods for Multi-Agentic AI. Duke University OTC Ref. T-008960. Co-inventors: R. Kamaleswaran, A. Nagori, K. Wu. Status: Patent Pending. Sponsored by NIH GM139967.</li>
+        <li><strong>Co-inventor:</strong> provisional patent for a VA-ECMO multi-agentic clinical decision-support framework.</li>
+      </ul>
+      <h3>Grant contributions</h3>
+      <ul>
+        <li><strong>NIH R01 Proposal (2026):</strong> co-investigator on a VA-ECMO multi-agent decision support R01; responsible for hierarchical multi-agent architecture and the safety evaluation plan.</li>
+      </ul>
+      <h3>Governance and stakeholder engagement</h3>
+      <ul>
+        <li>Contributing PhD student in the drafting of Duke University’s Agentic AI Monitoring guideline document, a governance and monitoring initiative led by Dr. Eric Poon at Duke Health.</li>
+        <!-- <li>Developing a white paper on a Sentinel-based governance stack for runtime monitoring of agentic AI systems in clinical settings.</li> -->
+        <li>Engaged in translational discussions with Duke Health system leadership, Duke Heart Center leadership in an ARPA-H-adjacent context, and Duke Clinical and Translational Science Institute (CTSI) rural health implementation discussions focused on equitable AI deployment in underserved communities.</li>
+      </ul>
+    </section>
+
+    <!-- <section id="experience">
+      <h2>Research Experience</h2>
+      <article class="entry">
+        <h3>Harvard Medical School — Summer Research Intern</h3>
+        <p class="meta">May 2023 – Aug 2023 · Supervisor: Dr. Kaifu Chen</p>
+        <p>Focused on nanopore sequencing and RNA modification detection and quantification.</p>
+      </article>
+      <article class="entry">
+        <h3>MD Anderson Cancer Center — Undergraduate Researcher</h3>
+        <p class="meta">Jan 2023 – May 2023 · Supervisors: Dr. Christopher A. Bristow and Dr. Fangyang Wang</p>
+        <p>Adapted DeepSTARR to predict enhancer activity from short DNA sequences on human H3K27ac ChIP-seq data, classifying housekeeping versus developmental enhancers. Applied transfer learning and Bayesian optimization with early stopping; achieved AUC of 0.82 for housekeeping enhancers and 0.56 for developmental enhancers.</p>
+      </article>
+      <article class="entry">
+        <h3>RiseWorks — Co-Founder</h3>
+        <p class="meta">2022 – 2023</p>
+        <p>Co-founded an AI-driven music therapy platform using personalized algorithms to address mental health needs including anxiety, depression, and PTSD. Awarded the Frank Liu Jr. Prize for Creative Innovations in Music, Fashion, and the Arts at the 2023 Napier Rice Launch Challenge.</p>
+      </article>
+      <article class="entry">
+        <h3>Rice University School of Engineering — Undergraduate Research Assistant</h3>
+        <p class="meta">Jun 2022 – Apr 2023 · Supervisor: Dr. Meng Li</p>
+        <p>Processed MIMIC-IV data for dynamic prediction of acute kidney injury after cardiac surgery using 12-hour sliding-window LSTM; achieved accuracy 0.777, balanced accuracy 0.758, and AUC 0.822, optimized via Ray Tune. Compared results with ensemble models via AutoGluon and prepared a manuscript for publication.</p>
+      </article>
+      <article class="entry">
+        <h3>MD Anderson Cancer Center — Undergraduate Research Assistant</h3>
+        <p class="meta">Jun 2022 – Aug 2022 · Supervisor: Dr. Christopher A. Bristow</p>
+        <p>Performed statistical analyses on a high-throughput RBP resource and regulatory network; deployed an interactive display application. RNAbinding-GO-Hs achieved 76% precision and 0.920 AUC; validated via two-sample Wilcoxon tests, Fisher exact tests, and Bonferroni-corrected p-values.</p>
+      </article>
+      <article class="entry">
+        <h3>Rice University — Undergraduate Research Assistant</h3>
+        <p class="meta">Sep 2020 – Dec 2022 · Supervisors: Dr. Qingbo Zhang and Dr. Gang Bao’s Lab</p>
+        <p>Synthesized magnetic nanoparticles and nanoclusters for magnetic hyperthermia optimization. Rendered 3D simulations of nanoparticle spin dynamics under three exchange conditions using Python and Mayavi; achieved approximately 8× improvement in smoothness via 3D interpolation.</p>
+      </article>
+      <article class="entry">
+        <h3>Stanford University — Undergraduate Researcher</h3>
+        <p class="meta">Sep 2019 – Aug 2020 · Supervisor: Dr. Kai Fu</p>
+        <p>Analyzed gene expression data using FastQC, HISAT2, and SAM/BAM pipelines. Trained models on gene expression data from 1,156 lung cancer patients for staging; achieved highest accuracy of 93.2% using random forest.</p>
+      </article>
+      <article class="entry">
+        <h3>UPMC — Student Researcher</h3>
+        <p class="meta">Oct 2015 – Jun 2018 · Supervisor: Dr. Junyan Tao, Department of Pathology</p>
+        <p>Performed statistical analyses on liver cancer and targeted therapy in a MET/β-catenin mouse model. Conducted hydrodynamic tail vein injection, protein extraction, stem cell culture, transfection, darkroom imaging, H&amp;E staining, and plasmid manipulation. This work contributed to a publication in <em>Gene Expression</em>.</p>
+      </article>
+    </section> -->
+
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul class="compact">
+        <li><strong>Programming and ML:</strong> Python, R, PyTorch, deep learning frameworks, agentic AI architectures, LLM-based systems, X-AI, trustworthy & responsible AI.</li>
+        <li><strong>Policy and governance:</strong> AI safety & governance, FDA & NPMA policy & regulatory landscape (US & China), clinical bioethics, technology ethics.</li>
+        <li><strong>Web and software:</strong> Full-stack web application development, open-source software engineering, DevOps.</li>
+        <li><strong>Clinical data:</strong> EHR data systems, MIMIC-IV, eICU, multimodality, SNOMED-CT, medical ontology, multi-site clinical data integration.</li>
+        <li><strong>Bioinformatics:</strong> Nanopore sequencing, FastQC, HISAT2, SAM/BAM, ChIP-seq analysis, RNA modification detection, gene expression analysis.</li>
+        <li><strong>Wet lab:</strong> Magnetic nanoparticle synthesis, stem cell culture, transfection, H&amp;E staining, protein extraction, plasmid manipulation.</li>
+      </ul>
+    </section>
+
+    <!-- <section id="digital-scholarship">
+      <h2>Technical and Digital Scholarship</h2>
+      <ul>
+        <li>Personal website featuring policy and ethics writing at the intersection of AI, FDA regulation, and technology governance.</li>
+        <li>Open-source code repositories and research artifacts on GitHub.</li>
+        <li>Blog posts and commentary on FDA policy, AI regulation, and technology ethics.</li>
+      </ul>
+    </section> -->
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: vincent.wu [AT] duke.edu<br>Institution: Duke University School of Medicine, Durham, NC</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Last updated: April 2026 · <a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
