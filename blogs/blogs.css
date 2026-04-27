@@ -22,7 +22,7 @@ body.blog-page[data-current-lang="zh"] [data-lang="zh"] {
 }
 
 .blog-masthead {
-  border-bottom: 1px solid var(--line);
+  border-bottom: 0;
   background: #fff;
 }
 
@@ -114,13 +114,13 @@ body.blog-page[data-current-lang="zh"] [data-lang="zh"] {
 
 .essay-card {
   padding: 18px 0 20px;
-  border-top: 1px solid var(--line);
+  border-top: 0;
 }
 
 .series-card {
   max-width: 760px;
   padding: 18px 0 20px;
-  border-top: 1px solid var(--line);
+  border-top: 0;
 }
 
 .series-card h3 {
@@ -153,7 +153,7 @@ body.blog-page[data-current-lang="zh"] [data-lang="zh"] {
 
 .archive-note {
   padding-top: 14px;
-  border-top: 1px solid var(--line);
+  border-top: 0;
   color: var(--muted);
 }
 
@@ -206,7 +206,7 @@ body.blog-page[data-current-lang="zh"] .article-meta[data-lang="zh"] {
 }
 
 .blog-footer {
-  border-top: 1px solid var(--line);
+  border-top: 0;
 }
 
 @media (max-width: 720px) {
