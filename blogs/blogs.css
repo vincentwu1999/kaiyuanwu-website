@@ -122,6 +122,27 @@ body.blog-page[data-current-lang="zh"] [data-lang="zh"] {
   border-top: 1px solid var(--line);
 }
 
+.series-card {
+  max-width: 760px;
+  padding: 24px 0 30px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.series-card h3 {
+  margin-bottom: 10px;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.42rem;
+  line-height: 1.25;
+}
+
+.series-card p {
+  margin-bottom: 0;
+  color: #2a3444;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.04rem;
+}
+
 .essay-card__meta,
 .article-meta {
   color: var(--muted);
