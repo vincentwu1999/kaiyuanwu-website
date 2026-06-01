@@ -193,6 +193,22 @@ body.blog-page[data-current-lang="zh"] .article-meta[data-lang="zh"] {
   margin-bottom: 16px;
 }
 
+
+.article-compare {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 22px 0 26px;
+}
+
+.article-compare__column {
+  padding: 0;
+}
+
+.article-compare__column ul {
+  margin-bottom: 0;
+}
+
 .article-closer {
   color: var(--muted);
   font-size: 0.98rem;
@@ -203,6 +219,11 @@ body.blog-page[data-current-lang="zh"] .article-meta[data-lang="zh"] {
 }
 
 @media (max-width: 720px) {
+
+  .article-compare {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
   .blog-topbar {
     align-items: flex-start;
     flex-direction: column;
